@@ -27,3 +27,25 @@ body {
 	font-size: 2em;
 	padding: 1em;
 }
+
+.btn-container {
+	width: 300px;
+	margin: auto;
+	
+}
+
+.btn-new-question {
+	display: block;
+	width: 16em;	
+	margin:  1em auto;
+	padding: 1em;
+}
+
+.question-ul {
+
+}
+
+.new-question-li {
+	padding: 1em;
+	margin: 1em;
+}
