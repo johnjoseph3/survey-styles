@@ -1,5 +1,6 @@
 body {
 	font-family: sans-serif;
+	background: #B2EBF2;
 }
 
 .header {
@@ -8,35 +9,40 @@ body {
 	left: 0;
 	right: 0;
 	height: 4em;
-	background-color: #76BCDE;
+	background-color: #00BCD4;
+	z-index:1;
 }
 
 .outer-container {
-	background-color: #f0dfad;
+	background-color: #FFFFFE;
 	width: 87.5%;
 	margin: 0 auto;
 	height: 100%;
+	box-shadow: 5px 10px 10px 5px #888888;
 }
 
 .content {
-	margin-top: 4em;
+	margin-top: 6em;
 	text-align: center;
 }
 
 .survey-title {
+	font-family: 'Sintony', sans-serif;
 	font-size: 2em;
+	color: #423f40;
 	padding: 1em;
+	padding-bottom:2em;
 }
 
 .btn-container {
 	width: 300px;
 	margin: auto;
-	
+
 }
 
 .btn-new-question {
 	display: block;
-	width: 16em;	
+	width: 16em;
 	margin:  1em auto;
 	padding: 1em;
 }
