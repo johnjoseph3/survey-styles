@@ -1,9 +1,9 @@
 body {
-	font-family: sans-serif;
+	font-family: 'Sintony', sans-serif;
 	background: #B2EBF2;
 }
 
-.header {
+.page-header {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -15,7 +15,7 @@ body {
 
 .outer-container {
 	background-color: #FFFFFE;
-	width: 87.5%;
+	width: 80%;
 	margin: 0 auto;
 	height: 100%;
 	box-shadow: 5px 10px 10px 5px #888888;
@@ -27,24 +27,31 @@ body {
 }
 
 .survey-title {
-	font-family: 'Sintony', sans-serif;
-	font-size: 2em;
+	font-size: 4em;
 	color: #423f40;
-	padding: 1em;
-	padding-bottom:2em;
+	padding: 1em 0 0.5em 0;
 }
 
 .btn-container {
-	width: 300px;
 	margin: auto;
+	padding-bottom: 0.75em;
 
 }
 
 .btn-new-question {
-	display: block;
-	width: 16em;
+	overflow: hidden;
+	width: 14em;
 	margin:  1em auto;
 	padding: 1em;
+	background-color: #00BCD4;
+	color: #eee;
+	border: 0;
+	cursor: pointer;
+	font-size: 1em;
+}
+
+.btn-new-question:hover {
+	background-color: #DE4D4E;
 }
 
 .question-ul {
@@ -54,4 +61,18 @@ body {
 .new-question-li {
 	padding: 1em;
 	margin: 1em;
+}
+
+.btn-create-survey {
+	font-size: 1.5em;
+	border-radius: 50%;
+	border: 0;
+	width: 100px;
+	height: 100px;
+	color: white;
+	background-color: #DE4D4E;
+}
+
+.survey-header {
+	background-color: #e0f7fa;
 }
