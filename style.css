@@ -3,6 +3,14 @@ body {
 	background: #B2EBF2;
 }
 
+button {
+cursor: pointer;
+}
+
+button:focus {
+	outline: 0;
+}
+
 .page-header {
 	position: fixed;
 	top: 0;
@@ -17,36 +25,33 @@ body {
 	background-color: #FFFFFE;
 	width: 80%;
 	margin: 0 auto;
-	height: 100%;
 	box-shadow: 5px 10px 10px 5px #888888;
 }
 
 .content {
-	margin-top: 6em;
+	margin-top: 2em;
 	text-align: center;
 }
 
 .survey-title {
 	font-size: 4em;
-	color: #423f40;
-	padding: 1em 0 0.5em 0;
+	color: #00BCD4;
+	padding: 0.5em 0 0.5em 0;
 }
 
 .btn-container {
 	margin: auto;
-	padding-bottom: 0.75em;
+	padding-bottom: 1.75em;
 
 }
 
 .btn-new-question {
 	overflow: hidden;
 	width: 14em;
-	margin:  1em auto;
 	padding: 1em;
 	background-color: #00BCD4;
 	color: #eee;
 	border: 0;
-	cursor: pointer;
 	font-size: 1em;
 }
 
@@ -54,13 +59,11 @@ body {
 	background-color: #DE4D4E;
 }
 
-.question-ul {
-
-}
-
 .new-question-li {
+	color: #888888;
 	padding: 1em;
 	margin: 1em;
+	position: relative;
 }
 
 .btn-create-survey {
@@ -70,9 +73,39 @@ body {
 	width: 100px;
 	height: 100px;
 	color: white;
+	background-color: #00BCD4; 
+	margin-bottom: -1.85em;
+}
+
+.btn-create-survey:hover {
 	background-color: #DE4D4E;
 }
 
 .survey-header {
 	background-color: #e0f7fa;
 }
+
+.new-question-li {
+	background-color: #ECF0F1;
+	width: 60%;
+	margin: 1em auto;
+	padding: 2em;
+}
+
+.question-delete {
+	border: none;
+	font-size: 1em;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0 0.75em;
+	background-color: #ECF0F1;
+	color: #00BCD4;
+}
+
+.question-delete:hover {
+	background-color: #DE4D4E; 
+	color: #FFFFFE;
+}
+
