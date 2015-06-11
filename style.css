@@ -1,0 +1,29 @@
+body {
+	font-family: sans-serif;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 4em;
+	background-color: #76BCDE;
+}
+
+.outer-container {
+	background-color: #f0dfad;
+	width: 87.5%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.content {
+	margin-top: 4em;
+	text-align: center;
+}
+
+.survey-title {
+	font-size: 2em;
+	padding: 1em;
+}
