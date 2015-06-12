@@ -53,10 +53,7 @@ button:focus {
   width: 60%;
   margin: 0.5em auto;
   padding: 1.5em;
-}
-
-.true-answer, .false-answer {
-
+  padding-top: 1em;
 }
 
 .short-answer, .long-answer {
