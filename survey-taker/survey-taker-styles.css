@@ -1,0 +1,67 @@
+body {
+	font-family: 'Sintony', sans-serif;
+	background: #B2EBF2;
+}
+
+button {
+cursor: pointer;
+}
+
+button:focus {
+	outline: 0;
+}
+
+.survey-header {
+  background: #e0f7fa;
+}
+
+.survey-outer-container {
+	background-color: #FFFFFE;
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: 5px 10px 10px 5px #888888;
+}
+
+.content {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.survey-title {
+	font-size: 4em;
+	color: #00BCD4;
+	padding: 0.5em 0 0.5em 0;
+}
+
+.btn-submit-survey {
+	font-size: 1.5em;
+	border-radius: 50%;
+	border: 0;
+	width: 100px;
+	height: 100px;
+	color: white;
+	background-color: #00BCD4;
+	margin-bottom: -1.85em;
+}
+
+.btn-submit-survey:hover {
+	background-color: #DE4D4E;
+}
+
+.tf-survey-answer, .short-survey-question, .long-survey-question  {
+  background-color: #ECF0F1;
+  width: 60%;
+  margin: 0.5em auto;
+  padding: 1.5em;
+}
+
+.true-answer, .false-answer {
+
+}
+
+.short-answer, .long-answer {
+  width: 35em;
+  height: 10em;
+  padding: 0.5em;
+  font-size: 0.8em;
+}

@@ -2,14 +2,57 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./reset.css">
+  <link rel="stylesheet" type="text/css" href="survey-taker-styles.css">
   <title>Survey-Taker-Pg</title>
 </head>
 <body>
 
-  <header>
-    <h1>Take Survey</h1>
-  </header>
+  <div class="survey-outer-container">
+    <div class="content">
 
-  
+      <div class="survey-header">
+        <h1 class="survey-title">"Survey Title"</h1>
+      </div>
+
+        <form class="user-survey-form">
+
+          <div class="tf-survey-answer">
+
+            <p class="tf-question">!!!!Question that is dynamically generated!!!!</p>
+
+            <label>
+              <input name="tf-answer" type="radio" placeholder="true" value="true-answer">
+              True
+            </label>
+
+            <label>
+              <input name="tf-answer" type="radio" placeholder="false" value="false-answer">
+              False
+            </label>
+
+          </div>
+
+          <div class="short-survey-question">
+
+            <p class="short-question">!!!!Question that is dynamically generated!!!!</p>
+
+            <input class="short-answer" placeholder="Write your answer here">
+          </div>
+
+          <div class="long-survey-question">
+
+            <p class="long-question">!!!!Question that is dynamically generated!!!!</p>
+
+            <input class="long-answer" placeholder="Write your answer here">
+          </div>
+
+      <button class="btn-submit-survey">Submit</button>
+
+    </form>
+
+      </div>
+  </div>
+
 </body>
 </html>
