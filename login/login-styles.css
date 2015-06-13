@@ -1,15 +1,110 @@
+body {
+  background-color: #e0f7fa;
+  font-family: Sintony;
+  overflow: hidden;
+}
+button {
+  cursor: pointer;
+}
+
 header {
   margin: 0 auto;
   padding: 1em;
   background-color: #00BCD4;
-  height: 3em;
+  height: 2.5em;
   text-align: center;
 }
+
+img {
+  position: absolute;
+  z-index: 1;
+  width: 7em;
+  height: 7em;
+  margin-left: 0.6em;
+  margin-top: 0.6em;
+}
+
+.pg-title {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 2.5em;
+  color: #EEEEEF;
+}
+
 .header-fake-btn {
-  width:3em;
+  width: 3em;
   border-radius: 50%;
   border: 0;
-  width: 15em;
-  height: 15em;
+  width: 12em;
+  height: 12em;
   background-color: #00BCD4;
+  margin-bottom: 1em;
+}
+
+.login-form {
+  margin-top: 9em;
+  text-align: center;
+}
+
+.login-title {
+  padding: 0.5em;
+  margin: 1em;
+  font-size: 1.6em;
+  color: #00BCD4;
+  padding-bottom: 1em;
+}
+
+.login-info {
+  padding-bottom: 5em;
+}
+
+input {
+  text-align: center;
+  display: inline-block;
+  height: 2em;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+
+.btn-user-login, .btn-new-user {
+  width: 10em;
+  height: 2em;
+  font-size: 1em;
+  border-style: none;
+  color: white;
+  background: #00BCD4;
+}
+
+.btn-user-login:hover, .btn-new-user:hover {
+  background-color: #DE4D4E;
+	color: #FFFFFE;
+}
+
+.login-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2em;
+  background-color: #00BCD4;
+}
+
+.credits {
+  font-family: Sintony;
+  font-size: 0.6em;
+  float: left;
+  color: #e0f7fa;
+  padding: 1em;
+  padding-top: 1.2em;
+}
+
+.fa-github {
+  float: right;
+  font-size: 1.7em;
+  padding-right: 0.3em;
+  padding-top: 0.1em;
+  color: #e0f7fa;
+  cursor: pointer;
+}
+
+.fa-github:hover {
+  color: #DE4D4E;
 }
