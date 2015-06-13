@@ -41,20 +41,12 @@ img {
 }
 
 .login-form {
-  margin-top: 9em;
+  margin-top: 12em;
   text-align: center;
 }
 
-.login-title {
-  padding: 0.5em;
-  margin: 1em;
-  font-size: 1.6em;
-  color: #00BCD4;
-  padding-bottom: 1em;
-}
-
 .login-info {
-  padding-bottom: 5em;
+  padding-bottom: 2em;
 }
 
 input {
@@ -72,6 +64,25 @@ input {
   border-style: none;
   color: white;
   background: #00BCD4;
+}
+
+.btn-survey-list {
+  margin-top: 1.5em;
+}
+.btn-take-surveys {
+  width: 20em;
+  height: 2em;
+  font-size: 1em;
+  border-style: none;
+  color: #00BCD4;
+  background: #FFFFFE;
+  border: 1px solid #00BCD4;
+}
+
+.btn-take-surveys:hover {
+  background: #00BCD4;
+  color: #FFFFFE;
+  border: 1px solid #FFFFFE;
 }
 
 .btn-user-login:hover, .btn-new-user:hover {
