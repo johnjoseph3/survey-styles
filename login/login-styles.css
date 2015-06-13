@@ -1,0 +1,15 @@
+header {
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #00BCD4;
+  height: 3em;
+  text-align: center;
+}
+.header-fake-btn {
+  width:3em;
+  border-radius: 50%;
+  border: 0;
+  width: 15em;
+  height: 15em;
+  background-color: #00BCD4;
+}
